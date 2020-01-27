@@ -127,3 +127,17 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Node.js, webpack artifacts
+*.entry.js
+*.js.map
+node_modules
+npm-debug.log*
+superset/assets/coverage/*
+superset/assets/cypress/screenshots
+superset/assets/cypress/videos
+superset/assets/version_info.json
+yarn-error.log
+
+.idea
